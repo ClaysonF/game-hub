@@ -35,7 +35,6 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
             {order.label}
           </MenuItem>
         ))}
-        <MenuItem>Average rating</MenuItem>
       </MenuList>
     </Menu>
   );
